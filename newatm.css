@@ -1,0 +1,113 @@
+body {
+    background-image: url(imagenes/cool-background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #333333;
+    
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 60px;    
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+#demotext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    background: #333333;
+    }
+
+    
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 90px;
+    
+}
+
+/*.botones{
+    background-color: rgb(66, 83, 178);
+    color: white;
+    border-radius: 25%;
+    padding: 9px;
+    cursor: pointer;
+    width: 100px;
+}
+
+
+.botones:hover{
+    background-color: rosybrown
+}*/
+.botones{
+    color: rgb(255, 255, 255); 
+    font-size: 25px; 
+    line-height: 25px; 
+    padding: 18px; 
+    border-radius: 16px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+    width: 200px;
+
+
+}
+    
+    
+    .botones:hover {
+    background: #9d1ca4; }
+    .botones:active {
+    background: #144E75; }
+
+
+
+
+
+
+
+.inputDatos{
+    border-radius: 5px;
+    height: 25px;
+    
+}
+
+#foot{
+    margin-top: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    padding-left: 20px;
+}
+
